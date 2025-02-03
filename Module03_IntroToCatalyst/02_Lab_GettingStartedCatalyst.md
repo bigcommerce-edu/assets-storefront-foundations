@@ -16,3 +16,5 @@ corepack enable pnpm && pnpm create @bigcommerce/catalyst@latest --gh-ref @bigco
 cd /path/to/catalyst/project
 pnpm run dev
 ```
+
+[Next](../Module04_CatalystArchitecture/01_StructureAndConventions.md)

@@ -37,3 +37,5 @@ stencil push --activate <variation_name>
 ```shell
 stencil push --activate <variation_name> --channel_ids 123 456
 ```
+
+[Next](../Module03_IntroToCatalyst/02_Lab_GettingStartedCatalyst.md)

@@ -44,3 +44,5 @@ stencil init --url <store_url> --token <access_token> --port 3000 --packageManag
 ```shell
 stencil start
 ```
+
+[Next](../Module02_StencilCoreConcepts/01_StructureAndConventions.md)
