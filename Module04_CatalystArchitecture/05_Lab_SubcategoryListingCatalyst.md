@@ -169,7 +169,7 @@ export const SubcategoryList = (
             <Card
               className=''
               href={subcategory.path}
-              image={{
+              image={(!subcategory.image) ? undefined : {
                 src: subcategory.image?.url ?? '',
                 alt: subcategory.image?.altText ?? '',
               }}
@@ -294,5 +294,29 @@ const config = {
     },
   },
   ...
+};
+```
+
+**`components/subcategory-list/index.tsx`:**
+
+```javascript
+export const SubcategoryList = (
+  ...
+) => {
+  return (
+    <div ...>
+      {/* START MODIFIED CODE */}
+      <h1 className="font-heading 
+        text-3xl font-medium leading-none 
+        @lg:text-4xl @2xl:text-5xl
+        text-subcategoryListHeading"
+      >
+      {/* END MODIFIED CODE */}
+          {title}
+      </h1>
+
+      ...
+    </div>
+  );
 };
 ```
