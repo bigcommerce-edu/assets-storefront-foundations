@@ -72,7 +72,7 @@
 **Debugging:**
 
 ```
-http://localhost:3001/?debug=context
+http://localhost:3000/?debug=context
 ```
 
 ## Front Matter
@@ -103,4 +103,4 @@ blog:
 {{{region name="header_bottom"}}}
 ```
 
-[Next](./03_Lab_SubcategoryListingStencil.md)
+[Next](./04_Lab_BundleUploadTheme.md)

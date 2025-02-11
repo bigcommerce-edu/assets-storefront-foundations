@@ -33,5 +33,3 @@
   ...
 },
 ```
-
-[Next](./05_Lab_SubcategoryListingCatalyst.md)
