@@ -1,35 +1,53 @@
 # Catalyst Structure and Conventions
 
-## Localization
+## React
 
-## Storing Static Text Translations
+**Example component:**
 
-**English translations:**
+```javascript
+function BlogPost({
+  article,
+  showTags
+}) {
+  {/* State to track a user's interaction */}
+  const [liked, setLiked] = useState(false);
 
-```json
-"ChangePassword": {
-  "title": "Change password",
-  "heading": "Change password",
-  "Form": {
-    "newPasswordLabel": "New password",
-    "confirmPasswordLabel": "Confirm password",
-    ...
-  },
-  ...
-},
+  const activateLike = () => {
+    // ... send request
+    setLiked(true);
+  }
+
+  return (
+    <article>
+      {/* Outputting a simple object value */}
+      <h1>{article.title}</h1>
+
+      <div>
+        {article.body}
+      </div>
+
+      {/* Using comparison for an "IF" */}
+      {showTags && (article.tags.length > 0) && (
+        <ul>
+          {/* A simple array function to loop over a value */}
+          {article.tags.map(tag => (
+            <li>{tag}</li>
+          ))}
+        </ul>
+      )}
+
+      <div>
+        {/* Ternary operators work as well
+        This time examining state for what to output. */}
+        {liked ? (
+          <span>You liked this</span>
+        ) : (
+          <button onClick={activateLike}>Like</button>
+        )}
+      </div>
+    </article>
+  );
+}
 ```
 
-**French translations:**
-
-```json
-"ChangePassword": {
-  "title": "Modifier le mot de passe",
-  "heading": "Modifier le mot de passe",
-  "Form": {
-    "newPasswordLabel": "Nouveau mot de passe",
-    "confirmPasswordLabel": "Confirmer le mot de passe",
-    ...
-  },
-  ...
-},
-```
+[Next](./03_SoulUILibrary.md)
