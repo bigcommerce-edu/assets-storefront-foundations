@@ -1,4 +1,4 @@
-# The Soul UI Library
+# The Component Library
 
 ## Styling Components
 
