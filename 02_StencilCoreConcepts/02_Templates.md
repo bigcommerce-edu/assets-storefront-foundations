@@ -102,5 +102,3 @@ blog:
 ```
 {{{region name="header_bottom"}}}
 ```
-
-[Next](./04_Lab_BundleUploadTheme.md)

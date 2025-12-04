@@ -49,5 +49,3 @@ function BlogPost({
   );
 }
 ```
-
-[Next](./03_ComponentsAndTheming.md)

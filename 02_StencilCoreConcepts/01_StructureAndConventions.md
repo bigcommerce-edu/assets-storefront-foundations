@@ -27,5 +27,3 @@ $body-font-family:  stencilFontFamily("body-font"), Arial, Helvetica, sans-serif
 ```javascript
 const productsPerPage = this.context.brandProductsPerPage;
 ```
-
-[Next](./02_Templates.md)
