@@ -6,5 +6,5 @@
 * [JSX](https://react.dev/learn/writing-markup-with-jsx)
 * [Vercel Runtime Cache API](https://vercel.com/docs/functions/functions-api-reference/vercel-functions-package#getcache)
 * [Catalyst.dev](https://www.catalyst.dev/)
-* [GraphQL Storefront API](https://developer.bigcommerce.com/docs/storefront/graphql)
+* [GraphQL Storefront API](https://docs.bigcommerce.com/developer/docs/storefront/graphql)
 * [Tailwind CSS](https://tailwindcss.com/)

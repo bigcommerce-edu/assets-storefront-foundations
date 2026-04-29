@@ -44,7 +44,7 @@ For ARM based Macs, you will need to run the following before installing the pac
 
 **Installing Dependencies on Windows**
 
-See the [BigCommerce documentation](https://developer.bigcommerce.com/docs/storefront/stencil/cli/install#installing-on-windows) for more details on options for installing dependencies on Windows before installing the Stencil CLI package.
+See the [BigCommerce documentation](https://docs.bigcommerce.com/developer/docs/storefront/stencil/cli/install#installing-on-windows) for more details on options for installing dependencies on Windows before installing the Stencil CLI package.
 
 2. **Test** the _stencil_ command and **verify** that a list of possible sub-commands is output.
 

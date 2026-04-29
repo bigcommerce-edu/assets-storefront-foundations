@@ -12,7 +12,7 @@ The Stencil CLI `bundle` command will bundle the contents of your theme package 
 
 In order for a theme to be bundled, it must meet the following requirements:
 
-* The total bundle size must not exceed 50 MB. Static assets like images included directly within a theme package are usually the cause of themes that exceed the limit. See the [BigCommerce documentation](https://developer.bigcommerce.com/docs/storefront/stencil/deployment/theme-size) for tips on reducing the size of a theme.
+* The total bundle size must not exceed 50 MB. Static assets like images included directly within a theme package are usually the cause of themes that exceed the limit. See the [BigCommerce documentation](https://docs.bigcommerce.com/developer/docs/storefront/stencil/deployment/theme-size) for tips on reducing the size of a theme.
 * All directories must have file permissions set to 755 _(drwxr-xr-x)_, while all files must be set to 644 _(rw-r--r--)_. Make sure to set these permissions accordingly when creating new files and directories.
 
 
@@ -79,4 +79,4 @@ stencil push --activate <variation_name>
 
 ## Resources
 
-* [Checking a Theme's Size](https://developer.bigcommerce.com/docs/storefront/stencil/deployment/theme-size)
+* [Checking a Theme's Size](https://docs.bigcommerce.com/developer/docs/storefront/stencil/deployment/theme-size)
