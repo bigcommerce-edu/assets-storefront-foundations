@@ -2,7 +2,7 @@
 
 **Prerequisites**
 
-* A BigCommerce [sandbox store](https://docs.bigcommerce.com/developer/docs/start/about/sandboxes) or [trial store](https://www.bigcommerce.com/essentials/), or a full production store, with an available storefront seat
+* A BigCommerce [sandbox store](https://docs.bigcommerce.com/docs/start/about/sandboxes) or [trial store](https://www.bigcommerce.com/essentials/), or a full production store, with an available storefront seat
 * A control panel user with the following permissions: "Create Store-level API accounts," "Install applications," "Launch applications", "Create Channels" ([Learn about high-risk permissions](https://support.bigcommerce.com/s/article/User-Permissions#highrisk))
 * A command-line interface on your local machine
 * Node.js 20 or later ([nvm](https://github.com/nvm-sh/nvm) recommended)

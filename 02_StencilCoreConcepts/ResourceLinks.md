@@ -8,5 +8,5 @@
 * [Front Matter Object Reference](https://docs.bigcommerce.com/developer/docs/storefront/stencil/themes/context/frontmatter-reference)
 * [Using Front Matter](https://docs.bigcommerce.com/developer/docs/storefront/stencil/themes/context/frontmatter)
 * [Front Matter GraphQL Attributes](https://docs.bigcommerce.com/developer/docs/storefront/stencil/themes/context/frontmatter-reference#graphql-attributes)
-* [Widgets](https://docs.bigcommerce.com/developer/docs/storefront/widgets#widgets)
+* [Widgets](https://docs.bigcommerce.com/developer/docs/storefront/stencil/content/widgets)
 * [Checking a Theme's Size](https://docs.bigcommerce.com/developer/docs/storefront/stencil/deployment/theme-size)
