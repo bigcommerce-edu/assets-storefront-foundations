@@ -5,7 +5,7 @@
 * A BigCommerce [sandbox store](https://docs.bigcommerce.com/docs/start/about/sandboxes) or [trial store](https://www.bigcommerce.com/essentials/), or a full production store, with an available storefront seat
 * A control panel user with the following permissions: "Create Store-level API accounts," "Install applications," "Launch applications", "Create Channels" ([Learn about high-risk permissions](https://support.bigcommerce.com/s/article/User-Permissions#highrisk))
 * A command-line interface on your local machine
-* Node.js 20 or later ([nvm](https://github.com/nvm-sh/nvm) recommended)
+* Node.js 24 or later ([nvm](https://github.com/nvm-sh/nvm) recommended)
 * The [pnpm](https://pnpm.io/installation) package manager
 * [Git CLI](https://git-scm.com/)
 
@@ -49,7 +49,7 @@ Note that the new channel page includes a CLI command in the "Complete Setup" se
 
 
 ```bash copy
-corepack enable pnpm && pnpm create @bigcommerce/catalyst@latest --gh-ref @bigcommerce/catalyst-makeswift@1.3.6
+corepack enable pnpm && pnpm create @bigcommerce/catalyst@latest --gh-ref @bigcommerce/catalyst-makeswift@1.6.3
 ```
 
 **Troubleshooting**
