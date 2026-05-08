@@ -1,6 +1,6 @@
 # Catalyst Architecture - Resource Links
 
-* [Next.js Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)
+* [Next.js Proxy](https://nextjs.org/docs/app/api-reference/file-conventions/proxy)
 * [Upstash for Redis](https://vercel.com/marketplace/upstash)
 * [Learn React](https://react.dev/learn)
 * [JSX](https://react.dev/learn/writing-markup-with-jsx)
