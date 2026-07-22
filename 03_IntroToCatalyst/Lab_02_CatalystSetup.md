@@ -120,7 +120,8 @@ If you encounter an error while starting the dev server related to an issue find
 | AUTH_SECRET | A secret value used for Auth.js authenticated session management |
 | BIGCOMMERCE_STORE_HASH | The hash of the BigCommerce store this project is connected to |
 | BIGCOMMERCE_CHANNEL_ID | The ID of the new storefront channel that was created in your store. This new channel has the type "storefront" and the platform "catalyst". |
-| BIGCOMMERCE_STOREFRONT_TOKEN | This GraphQL Storefront API token that Catalyst uses for its interactions with the BigCommerce platform. |
+| BIGCOMMERCE_STOREFRONT_TOKEN | The private [GraphQL Storefront API token](https://docs.bigcommerce.com/developer/api-reference/rest/admin/authentication-apis/storefront-api-tokens/private-api-token/create-private-token) that Catalyst uses for its interactions with the BigCommerce platform. |
+| BIGCOMMERCE_STOREFRONT_UNAUTHENTICATED_TOKEN | A private Storefront API token limited to the "Unauthenticated" scope, used to proxy client-side GraphQL requests. |
 | ENABLE_ADMIN_ROUTE | Enables the convenience URL path */admin* on the storefront, which will direct you to your store's control panel&nbsp; |
 | TURBO_REMOTE_CACHE_SIGNATURE_KEY | A key related to Turborepo, a tool used by Catalyst for optimizing building within the monorepo |
 | MAKESWIFT_SITE_API_KEY | The API key of the Makeswift dev site |
