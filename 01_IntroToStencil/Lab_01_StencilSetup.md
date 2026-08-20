@@ -20,7 +20,22 @@ You'll use this API account in a later lab to bundle and publish your theme. For
 
 5. **Save** the account and **record** the access token that is displayed in the resulting modal.
 
-## Step 2: Install Stencil CLI
+## Step 2: Optional: Enable Makeswift
+
+For users wanting to explore the capabilities of the Makeswift editor, you can opt in from the control panel and provision a Makeswift site for your Stencil storefront.
+
+**Beta**
+
+Makeswift for Stencil is currently in beta. Features and availability are subject to change.
+
+1. In the BigCommerce control panel, **navigate** to Channel Manager.
+2. **Select** your Stencil storefront channel to open its channel entry.
+3. **Opt in** to Makeswift for the channel.
+4. **Click**"Edit in Makeswift". The first time you open the editor, BigCommerce provisions a Makeswift site for your channel, which may take a moment.
+
+Once provisioning completes, the Makeswift editor opens with a live preview of your storefront. You can return to it at any time using the "Edit in Makeswift" button on the channel entry.
+
+## Step 3: Install Stencil CLI
 
 This step only needs to be performed once for a specific version of Node.js.
 
@@ -52,7 +67,7 @@ See the [BigCommerce documentation](https://docs.bigcommerce.com/developer/docs/
 stencil -h
 ```
 
-## Step 3: Clone the Cornerstone Theme
+## Step 4: Clone the Cornerstone Theme
 
 1. **Run** the following command to clone the Cornerstone default theme from [GitHub](https://github.com/bigcommerce/cornerstone/) to a local location.
 
@@ -69,7 +84,7 @@ npm install
 
 You should now have a complete copy of the Cornerstone theme source files, with dependencies installed in the _node_ modules_directory.
 
-## Step 4: Initialize Stencil
+## Step 5: Initialize Stencil
 
 This step only needs to be performed once for a given Stencil theme project locally.
 
@@ -96,7 +111,7 @@ This will result in interactive prompts allowing you to provide appropriate valu
 
 2. **Verify** that the file _config.stencil.json_ has been generated in your main theme directory.
 
-## Step 5: Start the Live Preview
+## Step 6: Start the Live Preview
 
 1. In your theme working directory, **run** the following command to start a local dev server with a live preview of your theme.
 
