@@ -127,7 +127,7 @@ If you encounter an error while starting the dev server related to an issue find
 | **Variable** | **Description** |
 | --- | --- |
 | AUTH_SECRET | A secret value used for Auth.js authenticated session management |
-| CATALYST_ACCESS_TOKEN | A BigCommerce REST API token generated during the device auth flow, used exclusively by the Catalyst CLI (for example, to authorize commands like *channel link*) |
+| CATALYST_ACCESS_TOKEN | A BigCommerce REST API token generated during the device auth flow, used exclusively by the Catalyst CLI (for example, to authorize commands like *channels link*) |
 | BIGCOMMERCE_STORE_HASH | The hash of the BigCommerce store this project is connected to |
 | BIGCOMMERCE_CHANNEL_ID | The ID of the new storefront channel that was created in your store. This new channel has the type "storefront" and the platform "catalyst". |
 | BIGCOMMERCE_STOREFRONT_TOKEN | The private [GraphQL Storefront API token](https://docs.bigcommerce.com/developer/api-reference/rest/admin/authentication-apis/storefront-api-tokens/private-api-token/create-private-token) that Catalyst uses for its interactions with the BigCommerce platform. |
@@ -136,7 +136,7 @@ If you encounter an error while starting the dev server related to an issue find
 | TURBO_REMOTE_CACHE_SIGNATURE_KEY | A key related to Turborepo, a tool used by Catalyst for optimizing building within the monorepo |
 | MAKESWIFT_SITE_API_KEY | The API key of the Makeswift dev site |
 
-Unlike most of the other values in _.env.local_, CATALYST_ACCESS_TOKEN is only used by the CLI itself — for example, to authorize commands like *channel link* — and is never read by the storefront application at build time or runtime. Because of this, it does not need to be set in any deployment environment.
+Unlike most of the other values in _.env.local_, CATALYST_ACCESS_TOKEN is only used by the CLI itself — for example, to authorize commands like *channels link* — and is never read by the storefront application at build time or runtime. Because of this, it does not need to be set in any deployment environment.
 
 CATALYST_ACCESS_TOKEN is separate from the optional BIGCOMMERCE_ACCESS_TOKEN variable. BIGCOMMERCE_ACCESS_TOKEN can be scoped independently of the CLI's own authorization, and is used by the storefront application at runtime for certain features that require REST API access.
 
